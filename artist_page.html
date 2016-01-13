@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Otzi || Artiste</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body id="page-artist">
+
+        <div class="wrapper">
+
+            <!-- ============ Main Header - START ============ -->
+
+            <header id="master-header">
+
+              <div class="bg-overlay"></div>
+              <div id="media-container"></div>
+                <div class="top-header">
+
+                    <div class="container">
+
+                        <h1 id="logo">
+                            <a href="index.html">
+                                <img src="img/logov9_blanc.png" alt="Otzi - The best">
+                            </a>
+                        </h1>
+
+                        <!-- ============ Main Navigation - START ============ -->
+
+                        <a id="nav-toggle" href="#"><span></span></a>
+                        <nav id="nav-menu">
+                            <ul>
+
+                                <li>
+                                    <a title="Parcourir les tatouages" href="tattoo_board.html"> Parcourir les tatouages</a>
+                                </li>
+                                <li>
+                                    <a title="Crowdsource Design" href="crowdsource.html">Crowdsourcer un design</a>
+                                </li>
+                                <li>
+                                  <a title="Espace tatoueur" href="form-3/index.html">Espace tatoueur</a></li>
+
+                            </ul>
+                        </nav>
+
+                        <!-- ============ Main Navigation - END ============ -->
+
+                    </div>
+                </div>
+
+                <h2 id="page-title">Tin-Tin</h2>
+                <div class="header-meta artist-role">Tattoo artist </div>
+                <a class="btn md btn-popup" href="#request"><i class="fa fa-thumb-tack"></i> Demander un rendez-vous</a>
+            </header>
+
+            <!-- ============ Main Header - END ============ -->
+
+            <div id="main">
+
+                <!-- ============ Contacts Bar - START ============ -->
+
+                <div id="contacts-bar" class="row">
+                    <div class="address col-md-6"><strong>THE TATTOOIST - Tattoo Studio</strong>, 1234 Our Awesome Street, Our Awesome City, OAS 123456</div>
+                    <div class="other col-md-6">
+                        <span class="contact"><i class="fa fa-phone"></i>Phone: <strong>(00) 123 456789</strong></span>
+                        <span class="contact"><i class="fa fa-envelope"></i>Email: <a href="mailto:email@domain.com"><strong>email@domain.com</strong></a></span>
+                    </div>
+                </div>
+
+                <!-- ============ Contacts Bar - END ============ -->
+
+                <!-- ============ Artist Description - START ============ -->
+
+                <div class="section">
+
+                    <div class="content container">
+
+                        <div class="full row">
+
+                            <div class="col-md-6">
+
+                              <p> <strong>Né près de Paris en 1965,</strong> Tin-tin montre très jeune son savoir-faire et un caractère à toute épreuve, comptant tout d’abord sur lui-même pour avancer. Autodidacte il commence le tatouage en 1985 lors de son service militaire. Il se fait d’abord connaître par ses reproductions plus fidèles que des photos.
+
+Par la suite, il a su par la qualité de son travail, séduire une nouvelle clientèle et donner au tatouage une meilleure réputation. Il revendique le statut d’artiste et co-fonde en 2003 le Syndicat National des Artistes Tatoueurs (SNAT) dont il est toujours aujourd’hui le président.
+
+Patron vanneur, grande gueule et au coeur gros comme ça, il réalise désormais des tatouages dans les styles qu’il préfère : l’hyper-réalisme et le japonisant.
+
+</p>
+                                <h4>Suivez-le sur les réseaux sociaux</h4>
+                                <ul class="social-links">
+                                    <li><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+
+                                    <li><a title="Instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+
+                                </ul>
+
+                                <h3 class="focus-title">Contact</h3>
+
+                              </p><ul>
+                                <li> Ouvert du lundi au samedi de midi à 20h.</li>
+
+
+<li>37, rue de Douai, 750009, Paris - Métro Blanche </li>
+
+<li>01.40.23.07.90 </li>
+<li>Mail : tin-tin@tin-tin-tattoos.com </li>
+
+</p>
+
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <img src="img/work-image-10.jpg" alt="Tattoo Artist">
+
+                                <!-- ============ Appointment Form - START ============ -->
+
+                                <form id="request" class="contact-form popup mfp-hide" action="mailer/appointment.php" method="post">
+
+                                    <div class="head"><img src="img/logo.png" alt="logo"></div>
+                                    <h3 class="focus-title"><i class="fa fa-thumb-tack"></i><span>Request an appointment to</span> Tattoo Artist Name</h3>
+
+                                    <label>
+                                        <strong>First Name *</strong>
+                                        <input class="required" type="text" name="first_name">
+                                    </label>
+                                    <label>
+                                        <strong>Last Name *</strong>
+                                        <input class="required" type="text" name="last_name">
+                                    </label>
+                                    <label>
+                                        <strong>Email *</strong>
+                                        <input class="required" type="text" name="email">
+                                    </label>
+                                    <label>
+                                        <strong>Phone Number *</strong>
+                                        <input class="required" type="text" name="phone">
+                                    </label>
+                                    <label>
+                                        <strong>Part of the Body</strong>
+                                        <select name="part_body">
+                                            <option value="Leg">Leg</option>
+                                            <option value="Calf">Calf</option>
+                                            <option value="Ankle">Ankle</option>
+                                            <option value="Foot">Foot</option>
+                                            <option value="Arm">Arm</option>
+                                            <option value="Forearm">Forearm</option>
+                                            <option value="Wrist">Wrist</option>
+                                            <option value="Hand">Hand</option>
+                                            <option value="Nek">Nek</option>
+                                            <option value="Head">Head</option>
+                                            <option value="Back">Back</option>
+                                            <option value="Buttocks">Buttocks</option>
+                                            <option value="Genitals">Genitals</option>
+                                            <option class="other" value="Other">Other (Specify below)</option>
+                                        </select>
+                                    </label>
+                                    <label id="other" class="hidden-field">
+                                        <strong>Specific Part of Body</strong>
+                                        <input type="text" name="custom">
+                                    </label>
+                                    <label><strong>Tattoo Size *</strong> (ex: 5x4)
+                                        <input class="required" type="text" name="size">
+                                    </label>
+                                    <div class="radio label">
+                                        <strong>Tattoo Color</strong>
+                                        <label>
+                                            <input type="radio" value="Black &amp; White" name="color" checked>
+                                            <span class="radio-replacer"></span>
+                                            <span>Black &amp; White</span>
+                                        </label>
+                                        <label>
+                                            <input class="required" type="radio" value="Color" name="color">
+                                            <span class="radio-replacer"></span>
+                                            <span>Color</span>
+                                        </label>
+                                    </div>
+                                    <label><strong>Tattoo Description *</strong>
+                                        <textarea class="required" name="description"></textarea>
+                                    </label>
+                                    <hr>
+                                     <label>
+                                        <input class="required" type="checkbox" name="check">
+                                        <span class="checkbox-replacer"></span>
+                                        <strong>Check to authorize the system *</strong>
+                                    </label>
+                                    <hr>
+                                    <p>( <strong>*</strong> ) = Mandatory field</p>
+                                    <input class="submit btn md" type="submit" name="submit" value="Request Appointment">
+                                    <input type="hidden" name="artist" value="Artist Name">
+                                    <input type="hidden" name="form_type" value="appointment">
+
+                                </form>
+
+                                <!-- ============ Appointment Form - END ============ -->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- ============ Artist Description - END ============ -->
+
+                <!-- ============ Artist Works - START ============ -->
+
+                <div id="latest-works" class="section">
+
+                    <div class="section-title">
+                        <h2>Derniers tattoos</h2>
+                    </div>
+
+                    <div class="content container">
+
+                        <div class="works">
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-3.jpg" alt="Work 01">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-3.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-4.jpg" alt="Work 02">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-4.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-5.jpg" alt="Work 03">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-5.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-6.jpg" alt="Work 04">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-6.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-7.jpg" alt="Work 05">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-7.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-8.jpg" alt="Work 06">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-8.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-9.jpg" alt="Work 07">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-9.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-10.jpg" alt="Work 08">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-10.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-11.jpg" alt="Work 09">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-11.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-12.jpg" alt="Work 10">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-12.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-13.jpg" alt="Work 11">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-13.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-14.jpg" alt="Work 12">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-14.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-15.jpg" alt="Work 13">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-15.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-16.jpg" alt="Work 14">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-16.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-17.jpg" alt="Work 15">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-17.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-18.jpg" alt="Work 16">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-18.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-19.jpg" alt="Work 17">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-19.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="work col-md-2 col-sm-6">
+
+                                <div class="work-thumb">
+                                    <img src="img/work-image-20.jpg" alt="Work 18">
+                                    <div class="thumb-links">
+                                        <a class="zoom" href="img/work-image-20.jpg"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                 <!-- ============ Artist Works - END ============ -->
+
+                <!-- ============ Instagram Banner - START ============ -->
+
+                <a class="instagram-bar" href="#">Suivez-nous sur <strong>Instagram</strong>!</a>
+
+                <!-- ============ Instagram Banner - END ============ -->
+
+            </div>
+
+            <!-- ============ Footer - START ============ -->
+
+            <footer class="dark">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="footer-col col-md-4 col-sm-6">
+
+
+                            <p><img width="200" class="align-center" src="img/logov9_blanc.png" alt="Otzi Logo"></p>
+
+
+                        </div>
+
+                        <div class="footer-col col-md-4 col-sm-6">
+
+                            <h3 class="focus-title"><i class="fa fa-clock-o"></i>Newsletter</h3>
+                            <input type="email" placeholder="hello@mydomain.com" id="submit" required="required">
+                            <button type="button" class="btn btn-primary">S'inscrire</button>
+
+
+
+
+                        </div>
+
+                        <div class="footer-col footer-contacts col-md-4 col-sm-12">
+
+                            <div class="contact-item"><span>Le premier site français d'inspiration de tatouages, de l'idée à sa réalisation</span></div>
+                            <div class="contact-item"><span>Tel:</span> <strong>(33) 1 23 45 67 89</strong></div>
+                            <div class="contact-item"><span>Email:</span> <strong><a href="#">hello@otzi.co</a></strong></div>
+                            <div class="contact-item">
+                                <span>Suivez-nous sur:</span>
+                                <ul class="social-links">
+                                    <li><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a title="Pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a title="Instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="copyright">
+                    &copy; 2015 - <strong>Otzi</strong>
+                </div>
+
+            </footer>
+
+            <!-- ============ Footer - END ============ -->
+
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            $('#media-container').backstretch('img/tintin.jpg');
+        </script>
+    </body>
+</html>
